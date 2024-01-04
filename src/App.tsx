@@ -11,9 +11,10 @@ type FormData = {
   state: string;
   city: string;
   street: string;
-  plaque: string;
+  zipCode: string;
   email: string;
   password: string;
+  dob: string;
 };
 
 const INITIAL_FORM_DATA: FormData = {
@@ -23,9 +24,10 @@ const INITIAL_FORM_DATA: FormData = {
   state: "",
   city: "",
   street: "",
-  plaque: "",
+  zipCode: "",
   email: "",
   password: "",
+  dob: "",
 };
 
 const App = () => {
@@ -41,7 +43,6 @@ const App = () => {
     currentStepIndex,
     steps,
     step,
-    goTo,
     next,
     back,
     isFirstStep,
