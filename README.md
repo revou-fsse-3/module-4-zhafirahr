@@ -1,1 +1,21 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/VXLqjAFn)
+# Multi Step Form With Reactjs, Tailwindcss, Vitejs and Typescript 
+
+Add a multi-step form to get user information or anything else you want.
+
+## Demo
+
+[record-screen.webm](https://github.com/aliasgharHbagheri/multistep-form-with-vitejs-tailwindcss-typescript/assets/109569108/73e18690-85f4-492c-a127-338bedde9fed)
+
+## Installation 
+
+Install all dependencies
+
+```
+npm install
+```
+
+Run app
+
+```
+npm run dev
+```
